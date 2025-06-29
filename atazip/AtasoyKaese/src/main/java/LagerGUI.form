@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LagerGUI">
+  <grid id="27dc6" binding="Lager" layout-manager="GridLayoutManager" row-count="11" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="591" height="423"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="94704" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sorte"/>
+        </properties>
+      </component>
+      <component id="d6e8d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Herkunftsland"/>
+        </properties>
+      </component>
+      <component id="4202d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Bestand (kg)"/>
+        </properties>
+      </component>
+      <component id="d0c02" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Gouda  "/>
+            <item value="Edamer  "/>
+            <item value="Emmentaler  "/>
+            <item value="Butterkäse  "/>
+            <item value="Tilsiter  "/>
+            <item value="Camembert  "/>
+            <item value="Brie  "/>
+            <item value="Mozzarella  "/>
+            <item value="Frischkäse  "/>
+            <item value="Feta  "/>
+            <item value="Bergkäse  "/>
+            <item value="Harzer Käse  "/>
+            <item value="Camembert  "/>
+            <item value="Frischkäse  "/>
+            <item value="Tilsiter  "/>
+            <item value="Gouda  "/>
+            <item value="Edamer  "/>
+            <item value="Mozzarella  "/>
+            <item value="Ziegenkäse  "/>
+            <item value="Raclette  "/>
+            <item value="Manchego  "/>
+            <item value="Pecorino  "/>
+            <item value="Halloumi  "/>
+            <item value="Roquefort  "/>
+            <item value="Gorgonzola  "/>
+            <item value="Cheddar  "/>
+            <item value="Limburger  "/>
+          </model>
+        </properties>
+      </component>
+      <component id="b3bba" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b2ba4" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <scrollpane id="b39f0">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="100"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="96405" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <hspacer id="57b17">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="15"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="fdca1">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="15"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="c2e70">
+        <constraints>
+          <grid row="0" column="0" row-span="11" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="4ce47">
+        <constraints>
+          <grid row="0" column="4" row-span="11" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="15" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="2eea9" class="javax.swing.JButton" binding="löschenButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Löschen"/>
+        </properties>
+      </component>
+      <component id="48f9a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Haltbarkeit (TT.MM.JJJJ)"/>
+        </properties>
+      </component>
+      <component id="959d7" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="e471">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="14" height="49"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="88e02" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Filter nach Bestand"/>
+        </properties>
+      </component>
+      <component id="cf488" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="179" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Nicht Filtern"/>
+            <item value="0-5 kg"/>
+            <item value="6-10 kg"/>
+            <item value="&gt;10 kg"/>
+          </model>
+        </properties>
+      </component>
+      <component id="b6149" class="javax.swing.JButton" binding="kritischeVerkaufsbestandButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="173" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="KritischeVerkaufsbestand"/>
+        </properties>
+      </component>
+      <component id="175bf" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="669d3" class="javax.swing.JButton" binding="speichernButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Speichern"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
