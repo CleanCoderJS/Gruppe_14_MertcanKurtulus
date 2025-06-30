@@ -1,3 +1,4 @@
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 import java.time.LocalDate;
@@ -37,7 +38,7 @@ public class Lager {
 
         for (Kaese k : kaeseList) {
             int bestandInt = k.getBestand();
-            int tageBisAblauf = heute.until(k.getHaltbarkeit()).getDays();
+            int tageBisAblauf = (int) ChronoUnit.DAYS.between(heute, k.getHaltbarkeit());
 
             if (bestandInt >= 20 && tageBisAblauf > 10 && tageBisAblauf <= 20) {
                 gefilterteListe.add(k);

@@ -106,7 +106,7 @@ public class LagerGUI extends JFrame {
         lager.addKaese(new Kaese("Halloumi", "Griechenland", 14, LocalDate.of(2025, 7, 30)));
         lager.addKaese(new Kaese("Roquefort", "Frankreich", 2, LocalDate.of(2025, 6, 29))); // çok yakın tarihte
         lager.addKaese(new Kaese("Gorgonzola", "Italien", 9, LocalDate.of(2025, 8, 18)));
-        lager.addKaese(new Kaese("Cheddar", "England", 30, LocalDate.of(2025, 12, 12)));
+        lager.addKaese(new Kaese("Cheddar", "England", 30, LocalDate.of(2025, 9, 12)));
         lager.addKaese(new Kaese("Limburger", "Belgien", 7, LocalDate.of(2025, 8, 8)));
 
         updateTable();
