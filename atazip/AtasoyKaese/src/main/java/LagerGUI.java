@@ -84,7 +84,7 @@ public class LagerGUI extends JFrame {
         lager.addKaese(new Kaese("Gouda", "Deutschland", 12, LocalDate.of(2025, 8, 5)));
         lager.addKaese(new Kaese("Edamer", "Deutschland", 8, LocalDate.of(2025, 9, 1)));
         lager.addKaese(new Kaese("Emmentaler", "Schweiz", 3, LocalDate.of(2025, 7, 12)));
-        lager.addKaese(new Kaese("Butterkäse", "Deutschland", 5, LocalDate.of(2025, 6, 30)));
+        lager.addKaese(new Kaese("Butterkäse", "Deutschland", 5, LocalDate.of(2025, 7, 4)));
         lager.addKaese(new Kaese("Tilsiter", "Schweiz", 4, LocalDate.of(2025, 8, 18)));
         lager.addKaese(new Kaese("Camembert", "Frankreich", 10, LocalDate.of(2025, 10, 15)));
         lager.addKaese(new Kaese("Brie", "Frankreich", 6, LocalDate.of(2025, 7, 22)));
@@ -96,17 +96,17 @@ public class LagerGUI extends JFrame {
         lager.addKaese(new Kaese("Camembert", "Deutschland", 14, LocalDate.of(2025, 8, 18)));
         lager.addKaese(new Kaese("Frischkäse", "Deutschland", 6, LocalDate.of(2025, 7, 17)));
         lager.addKaese(new Kaese("Tilsiter", "Deutschland", 7, LocalDate.of(2025, 8, 2)));
-        lager.addKaese(new Kaese("Gouda", "Deutschland", 10, LocalDate.of(2025, 7, 6)));        // kritisch
-        lager.addKaese(new Kaese("Edamer", "Deutschland", 21, LocalDate.of(2025, 7, 10)));      // kritisch
+        lager.addKaese(new Kaese("Gouda", "Deutschland", 10, LocalDate.of(2025, 7, 9)));        // kritisch
+        lager.addKaese(new Kaese("Edamer", "Deutschland", 21, LocalDate.of(2025, 7, 15)));      // kritisch
         lager.addKaese(new Kaese("Mozzarella", "Deutschland", 22, LocalDate.of(2025, 7, 13)));  // kritisch
         lager.addKaese(new Kaese("Ziegenkäse", "Frankreich", 18, LocalDate.of(2025, 7, 20)));
         lager.addKaese(new Kaese("Raclette", "Schweiz", 6, LocalDate.of(2025, 8, 12)));
         lager.addKaese(new Kaese("Manchego", "Spanien", 3, LocalDate.of(2025, 9, 5)));
         lager.addKaese(new Kaese("Pecorino", "Italien", 11, LocalDate.of(2025, 11, 1)));
         lager.addKaese(new Kaese("Halloumi", "Griechenland", 14, LocalDate.of(2025, 7, 30)));
-        lager.addKaese(new Kaese("Roquefort", "Frankreich", 2, LocalDate.of(2025, 6, 29))); // çok yakın tarihte
+        lager.addKaese(new Kaese("Roquefort", "Frankreich", 2, LocalDate.of(2025, 7, 3))); // çok yakın tarihte
         lager.addKaese(new Kaese("Gorgonzola", "Italien", 9, LocalDate.of(2025, 8, 18)));
-        lager.addKaese(new Kaese("Cheddar", "England", 30, LocalDate.of(2025, 9, 12)));
+        lager.addKaese(new Kaese("Cheddar", "England", 30, LocalDate.of(2025, 7, 12)));
         lager.addKaese(new Kaese("Limburger", "Belgien", 7, LocalDate.of(2025, 8, 8)));
 
         updateTable();
