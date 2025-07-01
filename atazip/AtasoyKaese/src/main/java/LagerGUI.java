@@ -203,7 +203,7 @@ public class LagerGUI extends JFrame {
                     LocalDate haltbarkeit = (LocalDate) value;
                     setText(haltbarkeit.format(formatter));
 
-                    long daysLeft = ChronoUnit.DAYS.between(LocalDate.now(), haltbarkeit);
+                    long daysLeft = ChronoUnit.DAYS.between(heute, haltbarkeit);
 
                     if (daysLeft <= 5) {
                         setBackground(Color.RED);
