@@ -127,7 +127,7 @@ public class LagerGUI extends JFrame {
             boolean haltbarkeitGueltig = true;
             try {
                 haltbarkeit = parseHaltbarkeit(haltbarkeitText);
-                if (haltbarkeit.isBefore(LocalDate.now())) {
+                if (haltbarkeit.isBefore(heute)) {
                     haltbarkeitGueltig = false;
                     JOptionPane.showMessageDialog(this,
                             "Achtung: Das Haltbarkeitsdatum liegt in der Vergangenheit!",
